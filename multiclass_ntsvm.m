@@ -1,5 +1,6 @@
 function [Pre_Labels,time_taken]=multiclass_ntsvm(train_data, train_target, test_data,c1,c2,c3)
 %explanation...
+% binary relevence approch 
 %target = samples x class
 %data = samples x (features + 1)
 %R is rest class
